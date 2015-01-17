@@ -1,0 +1,2 @@
+# WAF-Game
+The main repository we will be using for our Mobile Applications game. If you're going to branch off tell us. If you're going to reconnect to the trunk tell us. Don't just disconnect and re-connect to the trunk because that can cause all sort of BS to occur if we don't know in advance, also because team communication. That said it shouldn't cause many issues anyway, but still, communication is good and we can always improve upon it.
