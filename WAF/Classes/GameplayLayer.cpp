@@ -11,6 +11,11 @@ float offset = 0.0f;
 float scrollSpeed = 0.5f;
 CCSize winSize;
 int GameplayLayer::score = 0;
+//--
+char GameplayLayer::strBuff[64];
+float GameplayLayer::timeC=0.0f;
+CCLabelTTF* GameplayLayer:: lblTimer;
+CCLabelTTF* GameplayLayer:: lblScore;
 
 void GameplayLayer::initPhysics()
 {
@@ -109,6 +114,27 @@ void GameplayLayer::updateFunc(float dt)
 			display->setRotation(CC_RADIANS_TO_DEGREES(-b->GetAngle()));
 		}
 	}
+
+	//update time
+	timeC+=0.01;
+	score+=timeC/1.5;
+	CCSize visibleSize = CCDirector::sharedDirector()->getVisibleSize();
+	CCPoint origin = CCDirector::sharedDirector()->getVisibleOrigin();
+	removeChild(lblTimer);
+	sprintf(strBuff, "%.2f", timeC);
+	lblTimer=CCLabelTTF::create(strBuff,"Arial",24);
+	//position label:
+	lblTimer->setPosition(ccp(origin.x+visibleSize.width-lblTimer->getContentSize().width,origin.y+visibleSize.height-lblTimer->getContentSize().height));
+	//make it visible:
+	addChild(lblTimer);
+	//score:
+	removeChild(lblScore);
+	sprintf(strBuff,  "%d", score);
+	lblScore=CCLabelTTF::create(strBuff,"Arial",24);
+	//position label:
+	lblScore->setPosition(ccp(origin.x+visibleSize.width-lblTimer->getContentSize().width,origin.y+visibleSize.height-lblTimer->getContentSize().height*2));
+	//make it visible:
+	addChild(lblScore);
 	
 	gameWorld->DrawDebugData();
 };

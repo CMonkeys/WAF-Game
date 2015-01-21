@@ -27,6 +27,13 @@ public:
 
 	void didAccelerate(CCAcceleration* pAccelerationValue);
 
+	//---
+	static float timeC;
+	static char strBuff[64];
+	static CCLabelTTF* lblTimer;
+	static CCLabelTTF* lblScore;
+
+
 protected:
 	static float xPTM;
 	static float xMTP;
