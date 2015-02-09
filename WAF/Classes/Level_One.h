@@ -15,7 +15,6 @@ public:
 
 protected:
 
-	Level_One* m_pLevel_One;
 };
 
 #endif __LEVEL_ONE_H__

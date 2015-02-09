@@ -3,6 +3,7 @@
 
 #pragma once
 #include "cocos2d.h"
+#include "Level_Select_Background.h"
 USING_NS_CC;
 
 class Level_Select : public CCScene
@@ -15,7 +16,7 @@ public:
 
 protected:
 
-	Level_Select* m_pLevel_Select;
+	Level_Select_Background* m_pLevel_Select_Background;
 };
 
 #endif __LEVEL_SELECT_H__
