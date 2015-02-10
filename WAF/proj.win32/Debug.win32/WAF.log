@@ -1,0 +1,34 @@
+﻿Der Buildvorgang wurde am 10.02.2015 17:01:26 gestartet.
+     1>Projekt "C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\WAF.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\..\..\..\cocos2dx" /I"C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\..\..\..\cocos2dx\include" /I"C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\..\..\..\cocos2dx\platform\win32" /I"C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\..\..\..\external" /I"C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\..\..\..\CocosDenshion\include" /I"C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\Menu.cpp
+         Menu.cpp
+       PreLinkEvent:
+         if not exist "C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\Debug.win32\" mkdir "C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\Debug.win32\"
+         :VCEnd
+         2 Datei(en) kopiert
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\Debug.win32\WAF.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\Debug.win32\WAF.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\Debug.win32\WAF.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\Level_One.obj
+         Debug.win32\Level_Select.obj
+         Debug.win32\Level_Select_Background.obj
+         Debug.win32\Main_Menu.obj
+         Debug.win32\Menu.obj
+         Debug.win32\Options.obj
+         Debug.win32\OptionsScene.obj
+         Debug.win32\Shop.obj
+         Debug.win32\ShopScene.obj
+         Debug.win32\main.obj
+         "C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\Debug.win32\libcocos2d.lib"
+         "C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\Debug.win32\libExtensions.lib"
+         "C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\Debug.win32\libBox2D.lib"
+         "C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\Debug.win32\libchipmunk.lib"
+         WAF.vcxproj -> C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\Debug.win32\WAF.exe
+     1>Die Erstellung des Projekts "C:\Users\Sarah\Desktop\UNI\Mobile Applications\WAF\cocos2d-x-2.2.5\projects\WAF\proj.win32\WAF.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:02.77

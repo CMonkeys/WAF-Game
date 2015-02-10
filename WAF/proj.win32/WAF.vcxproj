@@ -31,7 +31,7 @@
     <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
     <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
-    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110</PlatformToolset>
     <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
     <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
   </PropertyGroup>
@@ -138,6 +138,10 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClCompile Include="..\Classes\Level_Select_Background.cpp" />
     <ClCompile Include="..\Classes\Main_Menu.cpp" />
     <ClCompile Include="..\Classes\Menu.cpp" />
+    <ClCompile Include="..\Classes\Options.cpp" />
+    <ClCompile Include="..\Classes\OptionsScene.cpp" />
+    <ClCompile Include="..\Classes\Shop.cpp" />
+    <ClCompile Include="..\Classes\ShopScene.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +152,10 @@ xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutD
     <ClInclude Include="..\Classes\Level_Select_Background.h" />
     <ClInclude Include="..\Classes\Main_Menu.h" />
     <ClInclude Include="..\Classes\Menu.h" />
+    <ClInclude Include="..\Classes\Options.h" />
+    <ClInclude Include="..\Classes\OptionsScene.h" />
+    <ClInclude Include="..\Classes\Shop.h" />
+    <ClInclude Include="..\Classes\ShopScene.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>
