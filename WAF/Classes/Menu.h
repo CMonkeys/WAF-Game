@@ -15,6 +15,7 @@ public:
 	void Quit_ButtonClick(CCObject* obj);
 	void Score_ButtonClick(CCObject* obj);
 	void Options_ButtonClick(CCObject* obj);
+	void Shop_ButtonClick(CCObject* obj);
 	void Donate_ButtonClick(CCObject* obj);
 
 	CREATE_FUNC(Menu);
